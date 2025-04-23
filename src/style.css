@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rainbow-border {
+  border-image: linear-gradient(
+    45deg,
+    rgba(255, 183, 197, 0.5) 0%,
+    rgba(255, 218, 185, 0.5) 20%,
+    rgba(255, 255, 186, 0.5) 40%,
+    rgba(186, 255, 201, 0.5) 60%,
+    rgba(186, 225, 255, 0.5) 80%,
+    rgba(223, 186, 255, 0.5) 100%
+  ) 1;
+}
+
+.rainbow-overlay {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 183, 197, 0.4) 0%,
+    rgba(255, 218, 185, 0.4) 20%,
+    rgba(255, 255, 186, 0.4) 40%,
+    rgba(186, 255, 201, 0.4) 60%,
+    rgba(186, 225, 255, 0.4) 80%,
+    rgba(223, 186, 255, 0.4) 100%
+  );
+}
+
+.hero-image {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  
+}
+
+#un {
+  display: inline-block;
+}
+
+#un:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  transition: 300ms;
+}
+
+#un:hover:after {
+  width: 100%;
+}
