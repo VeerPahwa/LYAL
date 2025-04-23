@@ -127,8 +127,8 @@ export default function HomeApp() {
                   alt="Abstract artistic landscape"
                   className="rounded-xl mb-6 h-[77%]" 
                 />
-                <h4 className="text-[20px] font-semibold mb-3 text-white"><em id="un" className="after:bg-pink-500/75"><a href="lgcs.html">Lesbiana's Guide to 
-                Catholic School</a></em></h4>
+                <h4 className="text-[20px] font-semibold mb-3 text-white"><em id="un" className="after:bg-pink-500/75"><Link to="/LYAL/lgcs">Lesbiana's Guide to 
+                Catholic School</Link></em></h4>
                 <p className="text-gray-300 mb-6">
                   <i>Sonora Reyes</i>
                 </p>
@@ -142,7 +142,7 @@ export default function HomeApp() {
                   alt="Abstract artistic landscape"
                   className="rounded-xl mb-6 h-[77%]" 
                 />
-                <h4 className="text-2xl font-semibold mb-3 text-white"><em id="un" className="after:bg-purple-500/75"><a href="lals.html">Like a Love Story</a></em></h4>
+                <h4 className="text-2xl font-semibold mb-3 text-white"><em id="un" className="after:bg-purple-500/75"><Link to="/LYAL/lals">Like a Love Story</Link></em></h4>
                 <p className="text-gray-300 mb-6">
                   <i>Abdi Nazemian</i>
                 </p>
@@ -156,7 +156,7 @@ export default function HomeApp() {
                   alt="Abstract artistic landscape"
                   className="rounded-xl mb-6 h-[77%]" 
                 />
-                <h4 className="text-2xl font-semibold mb-3 text-white"><em id="un" className="after:bg-blue-500/75"><a href="gqam.html">Gender Queer: A Memoir</a></em></h4>
+                <h4 className="text-2xl font-semibold mb-3 text-white"><em id="un" className="after:bg-blue-500/75"><Link to="/LYAL/gqam">Gender Queer: A Memoir</Link></em></h4>
                 <p className="text-gray-300 mb-6">
                   <i>Maia Kobabe</i>
                 </p>
