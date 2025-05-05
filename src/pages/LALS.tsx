@@ -15,9 +15,9 @@ export default function LALSApp() {
                 <h1 className="text-2xl font-bold text-white">LGBTQ+ Stories</h1>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LGCS</Link>
-                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LALS</Link>
-                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">GQAM</Link>
+                 <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Lesbiana's Guide</Link>
+                  <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Like A Love Story</Link>
+                 <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Gender Queer</Link>
               </nav>
               <button className="md:hidden">
                 <Menu className="h-6 w-6 text-white" />
@@ -117,7 +117,6 @@ export default function LALSApp() {
         <section className="py-16 px-6 bg-gradient-to-br from-gray-800 to-gray-900">
           <div className="max-w-5xl mx-auto text-center">
             <h3 className="text-3xl font-semibold mb-4 text-white">Disclaimers For Educators</h3>
-            <h4 className="flex w-auto items-center mx-auto text-red-400 ml-[1.5vw] mb-4 text-2xl"><AlertCircle className="mr-2 w-11 h-11" /> Banned in Some States in certain districts! Please check your local laws before teaching </h4>
             <div className="grid md:grid-cols-3 gap-6">
   
               {/* Religious Conflict */}
@@ -213,7 +212,46 @@ export default function LALSApp() {
             </div>
           </div>
         </section>
-   
+
+        {/* Teaching Activity*/}
+        <div className="max-w-5xl mx-auto my-16 px-6">
+          <div
+            className="bg-white border-[1.5px] border-yellow-400 shadow-lg px-8 py-6 relative transform rotate-[-1.5deg]"
+            style={{
+              fontFamily: "'Caveat', cursive",
+              backgroundImage:
+                'repeating-linear-gradient(180deg, #fef9c3, #fef9c3 48px, #fef08a 48px, #fef08a 50px)',
+            }}
+          >
+            <h3 className="text-4xl font-bold text-gray-900 mb-4">
+              Teaching Activity:&nbsp;&nbsp;Making Flashcards
+            </h3>
+
+            <p className="text-xl text-gray-900 leading-relaxed mb-4">
+              Inspired by the moment Reza discovers Art’s flashcards, this activity asks students to create their own set of LGBTQ+ history flashcards to explore identity, resistance, and discovery.
+              After a history listen on the ACT UP movement and AIDS crisis, challenge your students to make new notecards that would fill in the gaps of information missing in Art's.    
+            </p>
+
+            <div className="bg-white/80 border border-yellow-300 rounded-xl px-4 py-3 mb-4 shadow-sm">
+              <p className="text-2xl text-gray-800 mb-2">✍️ <strong>Directions:</strong></p>
+              <ul className="list-disc list-inside space-y-1 text-gray-800 text-xl">
+                <li><strong>Front:</strong> LGBTQ+ term, movement, or reference</li>
+                <li><strong>Back:</strong> Meaning, historical context, or emotional impact</li>
+                <li><strong>Optional:</strong> Add visuals, symbols, or quotes</li>
+              </ul>
+            </div>
+
+            <div className="bg-yellow-100 border-l-4 border-yellow-500 px-4 py-3 rounded-md shadow-sm text-gray-800 text-xl">
+              <p><strong>Example:</strong></p>
+              <p><strong>Front:</strong> “SILENCE = DEATH”</p>
+              <p><strong>Back:</strong> A protest slogan from ACT UP calling attention to the government's inaction during the AIDS crisis.</p>
+            </div>
+
+            <p className="mt-6 text-right text-gray-700 italic text-lg">
+              – What truths would your flashcards uncover?
+            </p>
+          </div>
+        </div>
         {/* Footer */}
         <footer className="bg-gray-950 text-white py-12">
           <div className="max-w-3xl mx-auto px-2 sm:px-4 lg:px-6">

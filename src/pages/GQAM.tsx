@@ -14,9 +14,9 @@ export default function GQAMApp() {
                 <h1 className="text-2xl font-bold text-white">LGBTQ+ Stories</h1>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LGCS</Link>
-                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LALS</Link>
-                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">GQAM</Link>
+                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Lesbiana's Guide</Link>
+                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Like A Love Story</Link>
+                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Gender Queer</Link>
               </nav>
               <button className="md:hidden">
                 <Menu className="h-6 w-6 text-white" />
@@ -112,7 +112,6 @@ export default function GQAMApp() {
         <section className="py-16 px-6 bg-gradient-to-br from-gray-800 to-gray-900">
           <div className="max-w-5xl mx-auto text-center">
             <h3 className="text-3xl font-semibold mb-4 text-white">Disclaimers For Educators</h3>
-            <h4 className="flex w-auto items-center mx-auto text-red-400 ml-[1.5vw] mb-4 text-2xl"><AlertCircle className="mr-2 w-11 h-11" /> Banned in&nbsp;<u>many</u>&nbsp;States in certain districts! Please check your local laws before teaching </h4>
             <div className="grid md:grid-cols-3 gap-6">
   
               {/* Religious Conflict */}
@@ -145,6 +144,37 @@ export default function GQAMApp() {
             </div>
           </div>
         </section>
+          {/* Sample Teaching Activity */}
+        <section className="relative w-full overflow-hidden py-24 bg-gradient-to-br from-indigo-900 via-indigo-700 to-indigo-800">
+  {/* Darker Background Styling */}
+  <div className="absolute inset-0 bg-black opacity-80"></div>
+  
+  {/* Main Content */}
+  <div className="relative z-10 max-w-6xl mx-auto text-center px-8 py-16">
+    <h2 className="text-5xl h-[1.5em] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 mb-8">
+      🌈 Teaching Activity: Visual Identity Exploration
+    </h2>
+    <p className="text-xl text-gray-300 mb-8">
+      In <em>Gender Queer: A Memoir</em>, Maia Kobabe intricately explores gender identity through both narrative and visual representation. In this activity, students will create a <strong>visual exploration of their personal pronouns</strong>—using images, colors, and metaphors to express the fluidity and complexity of gender, just as Maia does throughout the memoir.
+    </p>
+
+    <div className="bg-indigo-900 bg-opacity-80 text-indigo-100 px-8 py-10 rounded-xl shadow-xl mb-12">
+      <h3 className="text-3xl font-semibold mb-6">💡 Instructions:</h3>
+      <ul className="list-decimal list-inside space-y-4 text-xl">
+        <li>Create a <strong>visual</strong> representation of your personal pronouns (he, she, they, etc.) in a style that resonates with you.</li>
+        <li>Use <strong>mixed media</strong> such as drawings, symbols, or colors to communicate the feelings and experiences tied to these pronouns.</li>
+        <li>Incorporate <strong>metaphors or abstract imagery</strong> (like the ones in the memoir) to reflect how you connect with or challenge societal expectations of gender.</li>
+        <li>Write a short reflection (<strong>100–150 words</strong>) explaining the significance behind the imagery and how it connects to your personal identity.</li>
+      </ul>
+    </div>
+
+    <p className="mt-8 text-xl text-gray-300">
+      This activity invites students to creatively engage with pronouns and their fluid nature—encouraging a reflective, visual response to gender identity as seen through the eyes of Maia Kobabe in <em>Gender Queer</em>.
+    </p>
+  </div>
+</section>
+
+
         {/* Footer */}
         <footer className="bg-gray-950 text-white py-12">
           <div className="max-w-3xl mx-auto px-2 sm:px-4 lg:px-6">

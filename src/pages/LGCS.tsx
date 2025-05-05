@@ -14,9 +14,9 @@ export default function LGCSApp() {
                 <h1 className="text-2xl font-bold text-white">LGBTQ+ Stories</h1>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LGCS</Link>
-                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LALS</Link>
-                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">GQAM</Link>
+                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Lesbiana's Guide</Link>
+                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Like A Love Story</Link>
+                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Gender Queer</Link>
               </nav>
               <button className="md:hidden">
                 <Menu className="h-6 w-6 text-white" />
@@ -114,7 +114,6 @@ export default function LGCSApp() {
         <section className="py-16 px-6 bg-gradient-to-br from-gray-800 to-gray-900">
           <div className="max-w-5xl mx-auto text-center">
             <h3 className="text-3xl font-semibold mb-4 text-white">Disclaimers For Educators</h3>
-            <h4 className="flex w-auto items-center mx-auto text-red-400 ml-[1.5vw] mb-4 text-2xl"><AlertCircle className="mr-2 w-11 h-11" /> Banned in Some States in certain districts! Please check your local laws before teaching </h4>
             <div className="grid md:grid-cols-3 gap-6">
   
               {/* Religious Conflict */}
@@ -144,6 +143,79 @@ export default function LGCSApp() {
                 <p className="text-gray-300">Centers on a “fake dating” ruse, explores sibling grief, and includes mild language and romantic tension.</p>
               </div>
   
+            </div>
+          </div>
+        </section>
+        {/* Context Section */}
+        <section>
+        <div className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+            <img
+              src="https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2012/06/pro_immigration_rect.jpg"
+              alt="SB 1070 Protest"
+              className="absolute inset-0 w-full h-full object-cover opacity-20 scale-105"
+            />
+            <div className="relative z-10 text-center max-w-4xl mx-auto px-6 py-12" style={{background: 'rgba(0,0,0,0.75)', 'border-radius': '3em', 'padding': '3.5em'}}>
+              <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-yellow-300 via-pink-400 to-purple-500 text-transparent bg-clip-text">
+                Cultural Context
+              </h2>
+              <p className="text-gray-300 text-xl leading-relaxed">
+              During the first Trump administration, immigration policy in Arizona grew increasingly strict, marked by heightened border enforcement and anti-immigrant rhetoric. Laws like SB 1070, which encouraged racial profiling, and federal crackdowns on undocumented immigrants created fear and instability for many families. For Yamilet's family in The Lesbiana’s Guide to Catholic School, this context would mean living under constant anxiety—especially as a Latinx household—about ICE raids, deportations, and public discrimination. Her mother's cautiousness and Yamilet’s own sense of being an outsider are shaped by this political environment of suspicion and exclusion.
+              </p>
+            </div>
+          </div>
+        </section>
+        {/* Teaching Activity: Understanding Policy Through Yamilet */}
+        <section className="relative py-24 px-6 bg-gradient-to-br from-[#0f0f0f] via-gray-800 to-[#1a1a1a] text-white overflow-hidden">
+          <div className="absolute inset-0 opacity-10 bg-[url('https://www.ice.gov/sites/default/files/images/2020-01/ice-badge.png')] bg-center bg-contain bg-no-repeat pointer-events-none"></div>
+
+          <div className="max-w-6xl mx-auto z-10 relative">
+            <h2 className="text-5xl h-[1.5em] font-bold text-center bg-gradient-to-r from-yellow-300 via-pink-400 to-purple-400 text-transparent bg-clip-text mb-16">
+              🧠 Teaching Activity: Policy, Fear, and Identity
+            </h2>
+
+            <div className="relative">
+              {/* Timeline-like progression */}
+              <div className="border-l-4 border-pink-500 pl-8 space-y-16">
+                {/* Step 1 */}
+                <div className="relative">
+                  <div className="absolute left-[-1.15rem] top-1 w-6 h-6 bg-pink-500 rounded-full border-4 border-white"></div>
+                  <h3 className="text-2xl font-semibold mb-2 text-pink-300 ml-8">📖 Step 1: Close Reading</h3>
+                  <p className="text-gray-300 ml-8">
+                    Select scenes where Yamilet talks about her dad’s deportation or her family’s caution. Ask students to highlight words or phrases that signal fear, isolation, or distrust of systems.
+                  </p>
+                </div>
+
+                {/* Step 2 */}
+                <div className="relative">
+                  <div className="absolute left-[-1.15rem] top-1 w-6 h-6 bg-yellow-400 rounded-full border-4 border-white"></div>
+                  <h3 className="text-2xl font-semibold mb-2 text-yellow-300 ml-8">🎙️ Step 2: Historical Interruption</h3>
+                  <p className="text-gray-300 ml-8">
+                    Break for a 5-minute explainer on Arizona's SB 1070 and 2016–2020 federal immigration policy. Optional: Show students a quick video clip or infographic from a trusted source.
+                  </p>
+                </div>
+
+                {/* Step 3 */}
+                <div className="relative">
+                  <div className="absolute left-[-1.15rem] top-1 w-6 h-6 bg-purple-400 rounded-full border-4 border-white"></div>
+                  <h3 className="text-2xl font-semibold mb-2 text-purple-300 ml-8">🤝 Step 3: Identity Mapping</h3>
+                  <p className="text-gray-300 ml-8">
+                    In pairs, students create a visual “identity map” of Yamilet—showing how immigration policy, religion, and queerness intersect in her life. Encourage metaphors or creative drawing.
+                  </p>
+                </div>
+
+                {/* Step 4 */}
+                <div className="relative">
+                  <div className="absolute left-[-1.15rem] top-1 w-6 h-6 bg-indigo-400 rounded-full border-4 border-white"></div>
+                  <h3 className="text-2xl font-semibold mb-2 text-indigo-300 ml-8">✍️ Step 4: Reflective Exit</h3>
+                  <p className="text-gray-300 ml-8">
+                    Each student writes a short paragraph answering: <em>“How does fear—created by real policy—shape Yamilet’s choices?”</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-20 text-center">
+              <h4 className="text-xl text-gray-200 italic">This activity supports critical thinking about how systems of power shape lived identity, even in fiction.</h4>
             </div>
           </div>
         </section>

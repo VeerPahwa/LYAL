@@ -14,9 +14,9 @@ export default function HomeApp() {
                 <h1 className="text-2xl font-bold text-white">LGBTQ+ Stories</h1>
               </div>
               <nav className="hidden md:flex space-x-8">
-                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LGCS</Link>
-                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">LALS</Link>
-                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">GQAM</Link>
+                <Link to="/LYAL/lgcs" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Lesbiana's Guide</Link>
+                <Link to="/LYAL/lals" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Like A Love Story</Link>
+                <Link to="/LYAL/gqam" id="un" className="text-gray-300 hover:text-pink-300 transition-colors after:bg-pink-300">Gender Queer</Link>
               </nav>
               <button className="md:hidden">
                 <Menu className="h-6 w-6 text-white" />
@@ -30,7 +30,7 @@ export default function HomeApp() {
           {/* Background Image and Overlay */}
           <div className="absolute inset-0 rainbow-border" style={{"border-bottom": ".3vh solid"}}>
             <img 
-              src="https://media.npr.org/assets/img/2022/04/26/npr_moth-final_slide-be503f156cd90f82ce2061fa33a54bc855a92fab.jpg?auto=format&fit=crop&q=80&w=2400"
+              src="https://rac.org/sites/default/files/2023-02/pride%20flags.png?auto=format&fit=crop&q=80&w=2400"
               alt="Abstract artistic landscape"
               className="absolute inset-0 w-full h-full object-cover hero-image" 
             />
